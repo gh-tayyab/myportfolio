@@ -17,11 +17,11 @@ const Navbar = (props: Props) => {
                 <li className={`py-1 hover:bg-neutral-700 transition ease-in duration-300 delay-100 rounded mx-1 ${showNav ? "max-sm:translate-x-8": "max-sm:translate-x-32"}`}>
                     <a href="./Service" className='px-2'>Services</a>
                 </li>
-                <li className={`py-1 hover:bg-neutral-700 transition ease-in duration-300 delay-100 rounded mx-1 ${showNav ? "max-sm:translate-x-8": "max-sm:translate-x-32"}`}>
-                    <a href="./Projects" className='px-2'>Projects</a>
+                <li className={`py-1 cursor-pointer hover:bg-neutral-700 transition ease-in duration-300 delay-100 rounded mx-1 ${showNav ? "max-sm:translate-x-8": "max-sm:translate-x-32"}`}>
+                    <a href="./Projects" className='px-4'>Projects</a>
                 </li>
                 <li className={`py-1 hover:bg-neutral-700 transition ease-in duration-300 delay-100 rounded mx-1 ${showNav ? "max-sm:translate-x-8": "max-sm:translate-x-32"}`}>
-                    <a href="./ContactMe" className='px-2'>Contact Me</a>
+                    <a href="/Tools" className='px-2'>Tools</a>
                 </li>
                 </ul>   
         </nav>

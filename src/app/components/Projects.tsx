@@ -5,7 +5,7 @@ type Props = {}
 
 const Projects = (props: Props) => {
   return (
-    <div className='w-10/12 mx-auto'>
+    <div className='w-10/12 mx-auto relative top-60'>
         <h1 className='md:text-4xl text-3xl lg:text-5xl font-bold mt-5'>Projects</h1>
         <p className='pt-6 text-neutral-300'>
             Over the years, I have gained experience in designing and developing a variety of websites, ranging from simple one-page landing pages to complex multi page application. Here are some projects are given below

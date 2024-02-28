@@ -7,12 +7,12 @@ type Props = {}
 
 const container = (props: Props) => {
   return (
-    <div className='lg:pt-16 pt-6 relative w-10/12 mx-auto'>
+    <div className='lg:pt-28 pt-14 relative top-20 w-9/12 mx-auto'>
         <div className='md:flex items-center justify-center flex-row-reverse'>
-            <div className='flex justify-end items-end max-md:pt-4'>
-                <div className='relative'>
-                    <img className='w-full h-auto transform 'width={500} src="man3.png" alt="Hero" />
-                    <div className='w-[60%] overflow-hidden h-[70%] z-[-1] top-[10%] left-[20%] rounded-full bg-gradient-to-r from-slate-600 via-slate-500 to-slate-400 absolute'></div>
+            <div className='flex justify-end items-end max-md:pt-2'>
+                <div className='relative '>
+                    <img className='w-full h-auto transform'width={500} src="man3.png" alt="Hero" />
+                    {/* <div className='w-[60%] overflow-hidden h-[70%] z-[-1] top-[10%] left-[20%] rounded-full bg-gradient-to-r from-slate-600 via-slate-500 to-slate-400 absolute'></div> */}
                 </div>
             </div>
                 <div className='p-4 pl-0 mt-5 sm:mt-20'>
